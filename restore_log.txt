@@ -1,0 +1,66 @@
+🔁 Ξεκινά σύγκριση ανάμεσα σε:
+ - src
+ - __aion_backup_20250419_124142/src
+[+] Creating folder: src/types
+[+] Creating folder: src/lib
+[+] Restoring missing file: src/.DS_Store
+[+] Creating folder: src/app/new
+[!] Conflict: src/app/layout.tsx
+ - Existing: src/app/layout.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/layout.tsx
+   -> Δες diff στο: src/app/layout.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/page.tsx
+ - Existing: src/app/page.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/page.tsx
+   -> Δες diff στο: src/app/page.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/globals.css
+ - Existing: src/app/globals.css
+ - Backup:   __aion_backup_20250419_124142/src/app/globals.css
+   -> Δες diff στο: src/app/globals.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/admin/layout.tsx
+ - Existing: src/app/admin/layout.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/admin/layout.tsx
+   -> Δες diff στο: src/app/admin/layout.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/admin/products/page.tsx
+ - Existing: src/app/admin/products/page.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/admin/products/page.tsx
+   -> Δες diff στο: src/app/admin/products/page.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/admin/dashboard/page.tsx
+ - Existing: src/app/admin/dashboard/page.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/admin/dashboard/page.tsx
+   -> Δες diff στο: src/app/admin/dashboard/page.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/admin/categories/page.tsx
+ - Existing: src/app/admin/categories/page.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/admin/categories/page.tsx
+   -> Δες diff στο: src/app/admin/categories/page.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/app/admin/media/page.tsx
+ - Existing: src/app/admin/media/page.tsx
+ - Backup:   __aion_backup_20250419_124142/src/app/admin/media/page.tsx
+   -> Δες diff στο: src/app/admin/media/page.conflict.txt (δεν έγινε overwrite)
+[+] Creating folder: src/components/products
+[+] Creating folder: src/components/forms
+[+] Creating folder: src/components/admin
+[!] Conflict: src/components/ui/Card.tsx
+ - Existing: src/components/ui/Card.tsx
+ - Backup:   __aion_backup_20250419_124142/src/components/ui/Card.tsx
+   -> Δες diff στο: src/components/ui/Card.conflict.txt (δεν έγινε overwrite)
+[!] Conflict: src/components/ui/Button.tsx
+ - Existing: src/components/ui/Button.tsx
+ - Backup:   __aion_backup_20250419_124142/src/components/ui/Button.tsx
+   -> Δες diff στο: src/components/ui/Button.conflict.txt (δεν έγινε overwrite)
+[+] Creating folder: src/components/products/edit
+[+] Creating folder: src/components/products/add
+[+] Restoring missing file: src/components/products/ProductForm.tsx
+[+] Creating folder: src/components/products/edit/[id]
+[+] Restoring missing file: src/components/products/edit/page.tsx
+[+] Restoring missing file: src/components/products/add/page.tsx
+[+] Restoring missing file: src/components/forms/TextField.tsx
+[+] Restoring missing file: src/components/admin/ImageUploader.tsx
+[+] Restoring missing file: src/components/admin/AdminSidebar.tsx
+[+] Restoring missing file: src/components/admin/layout.tsx
+[+] Restoring missing file: src/components/admin/Sidebar.tsx
+[+] Creating folder: src/lib/cloudinary
+[+] Creating folder: src/lib/utils
+[+] Creating folder: src/lib/hooks
+[+] Restoring missing file: src/lib/cloudinary/index.ts
+✅ Ολοκληρώθηκε η διαδικασία.

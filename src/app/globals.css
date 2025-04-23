@@ -1,0 +1,89 @@
+/* ========= AION GLOBAL STYLES ========= */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========= Design Tokens ========= */
+:root {
+  --aion-font: 'Inter', sans-serif;
+  --aion-bg: #f9fafb;
+  --aion-fg: #0f172a;
+
+  --aion-primary: #3B82F6;
+  --aion-secondary: #10B981;
+  --aion-accent: #F59E0B;
+  --aion-danger: #EF4444;
+  --aion-muted: #6b7280;
+
+  --aion-card-bg: #ffffff;
+  --aion-border: #e5e7eb;
+}
+
+.dark {
+  --aion-bg: #0f172a;
+  --aion-fg: #f9fafb;
+
+  --aion-card-bg: #1f2937;
+  --aion-border: #374151;
+}
+
+/* ========= Base Styles ========= */
+html, body {
+  @apply min-h-screen text-base antialiased;
+  font-family: var(--aion-font);
+  background-color: var(--aion-bg);
+  color: var(--aion-fg);
+}
+
+/* ========= Typography ========= */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-800 dark:text-white;
+}
+
+a {
+  @apply text-aion-primary hover:underline transition;
+}
+
+/* ========= Layout Helpers ========= */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* ========= Buttons ========= */
+button {
+  @apply transition ease-in-out duration-150 focus:outline-none;
+}
+
+/* ========= Inputs ========= */
+input,
+select,
+textarea {
+  @apply border border-gray-300 rounded-md px-3 py-2 shadow-sm focus:ring-2 focus:ring-aion-primary focus:outline-none;
+  background-color: white;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  @apply bg-gray-800 text-white border-gray-600;
+}
+
+/* ========= Cards ========= */
+.card {
+  @apply rounded-xl border shadow bg-[var(--aion-card-bg)] border-[var(--aion-border)];
+}
+
+/* ========= Scrollbars ========= */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--aion-primary);
+  border-radius: 4px;
+}
+
+/* ========= Code / Debug ========= */
+pre, code {
+  @apply font-mono text-sm bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded;
+}
